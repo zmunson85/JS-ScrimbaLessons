@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>My Counter App</title>
+</head>
+
+
+
+<body>
+    <h1 class="my-counter">My Counter</h1>
+    <br>
+    <button id="increment-btn" onclick="increment()">INCREMENT</button>
+    <button class="decrement-btn" onclick="decrement()">DECREMENT</button>
+    <h2 id="count-el" style="margin-top: 15%;">0</h2>
+    <div style="margin-right: 80%;">
+        <button id="save-btn" onclick="save()">SAVE</button>
+        <h6 id="save-el">Previous Entries: : </h6>
+        <h6 id="reset" onclick="reset()">Reset</h6>
+    </div>
+</body>
+<script src="main.js"></script>
+
+</html>
